@@ -1,16 +1,13 @@
 import Button from "../../components/button/Button";
+import SectionTitle from "../../components/sectionTitle/SectionTitle";
 import "./ProcessDesignSection.css";
-import startImg from "/images/star.png";
 import stepIcon from "/images/stepIcon.png";
 
 const ProcessDesignSection = () => {
   return (
     <div className="process-section-container">
       {/* title */}
-      <div className="process-section-title-container">
-        <h2 className="process-section-title">My process to design</h2>
-        <img src={startImg} alt="" />
-      </div>
+      <SectionTitle title="My process to design" />
 
       {/* content list */}
       <div className="process-content-container">

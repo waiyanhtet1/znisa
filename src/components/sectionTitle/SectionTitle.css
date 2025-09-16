@@ -1,0 +1,16 @@
+.section-title-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.section-title-container .section-title {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.section-container .section-title-container img {
+  width: 30px;
+  height: 30px;
+}

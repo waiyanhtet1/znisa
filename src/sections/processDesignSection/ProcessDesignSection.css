@@ -1,22 +1,5 @@
 .process-section-container {
-  padding: 40px 20px;
-}
-
-.process-section-container .process-section-title-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 40px;
-}
-
-.process-section-title-container .process-section-title {
-  font-weight: 400;
-  font-size: 2rem;
-}
-
-.process-section-container .process-section-title-container img {
-  width: 30px;
-  height: 30px;
+  padding: 40px 0;
 }
 
 .process-content-container {

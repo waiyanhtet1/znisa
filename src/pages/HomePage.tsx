@@ -1,4 +1,5 @@
 import Header from "../components/header/Header";
+import FeaturePJSection from "../sections/featurePJSection/FeaturePJSection";
 import HeroSection from "../sections/heroSection/HeroSection";
 import ProcessDesignSection from "../sections/processDesignSection/ProcessDesignSection";
 import SponsorSection from "../sections/sponsorSection/SponsorSection";
@@ -16,6 +17,7 @@ const HomePage = () => {
 
       <div className="homepage-container">
         <ProcessDesignSection />
+        <FeaturePJSection />
       </div>
     </>
   );
