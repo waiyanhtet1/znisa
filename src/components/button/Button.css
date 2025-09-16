@@ -1,0 +1,47 @@
+.gradient-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-black);
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Variant: normal */
+.gradient-button.normal {
+  border-radius: 50px; /* pill shape */
+}
+
+/* Variant: circular */
+.gradient-button.circular {
+  border-radius: 100%; /* perfect circle */
+  padding: 10px; /* equal width/height for circle */
+  width: 50px; /* fixed size for circular button */
+  height: 50px;
+}
+
+/* Hover / Active */
+.gradient-button:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.gradient-button:active:not(:disabled) {
+  transform: translateY(0);
+  opacity: 0.8;
+}
+
+.gradient-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

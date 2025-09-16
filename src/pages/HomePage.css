@@ -1,0 +1,23 @@
+.homepage-container {
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 45px;
+}
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .homepage-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .homepage-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+}
