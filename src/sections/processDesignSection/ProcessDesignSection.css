@@ -1,0 +1,126 @@
+.process-section-container {
+  padding: 40px 20px;
+}
+
+.process-section-container .process-section-title-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.process-section-title-container .process-section-title {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.process-section-container .process-section-title-container img {
+  width: 30px;
+  height: 30px;
+}
+
+.process-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.process-content-container .process-content-item {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  align-items: flex-start;
+}
+
+.process-content-item .process-content-left_side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.process-content-left_side .process-content-number {
+  border: 2px solid var(--text-color);
+  padding: 20px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: var(--background-color);
+  z-index: 2;
+}
+
+.process-content-left_side .process-content-line {
+  width: 2px;
+  flex-grow: 1;
+  min-height: 230px;
+  background-color: var(--line-color);
+  margin-top: 10px;
+}
+
+.process-content-left_side .process-content-line-2 {
+  min-height: 150px;
+}
+
+.process-content-item .process-content-right_side {
+  max-width: 600px;
+}
+
+.process-content-right_side img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.process-content-right_side .process-content-img-1 {
+  transform: rotate(90deg);
+}
+
+.process-content-right_side .process-content-img-2 {
+  transform: rotate(180deg);
+}
+
+.process-content-right_side h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.process-content-right_side p {
+  line-height: 1.6;
+  color: var(--text-color) / 80;
+}
+
+.process-content-right_side .process-content-see-examples {
+  margin-top: 15px;
+}
+
+/* Remove line from last item */
+.process-content-item:last-child .process-content-line {
+  display: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .process-section-container {
+    padding: 30px 15px;
+  }
+
+  .process-section-title-container .process-section-title {
+    font-size: 1.5rem;
+  }
+
+  .process-content-container .process-content-item {
+    gap: 15px;
+  }
+
+  .process-content-left_side .process-content-number {
+    width: 35px;
+    height: 35px;
+    padding: 8px 16px;
+  }
+}

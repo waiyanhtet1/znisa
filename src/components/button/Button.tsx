@@ -7,7 +7,7 @@ interface ButtonProps {
   type?: "button" | "submit" | "reset";
   className?: string;
   disabled?: boolean;
-  variant?: "normal" | "circular";
+  variant?: "normal" | "circular" | "outline";
 }
 
 const Button: React.FC<ButtonProps> = ({
