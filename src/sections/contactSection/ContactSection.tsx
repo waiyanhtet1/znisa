@@ -5,7 +5,7 @@ import contactImage from "/images/contact.png";
 
 const ContactSection = () => {
   return (
-    <div className="contact-section-container">
+    <div className="contact-section-container" data-aos="fade-right">
       <div className="content-section-text">
         <SectionTitle title="Have idea about project?" />
         <p>

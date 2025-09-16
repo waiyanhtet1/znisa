@@ -5,7 +5,7 @@ import portalSvg from "/images/Portal.svg";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section" data-aos="zoom-in">
       <div className="grid-background">
         {Array.from({ length: 6 * 7 }).map((_, index) => (
           <div key={index} className="grid-cell"></div>

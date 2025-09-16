@@ -6,7 +6,7 @@ interface Props {
 
 const FeaturePJCard = ({ pjImg }: Props) => {
   return (
-    <div className="pjcard-container">
+    <div className="pjcard-container" data-aos="zoom-in">
       <div className="pjcard-img"></div>
 
       <div className="pjcard-content">

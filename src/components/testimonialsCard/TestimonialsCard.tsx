@@ -3,7 +3,7 @@ import quoteImg from "/images/quote.png";
 
 const TestimonialsCard = () => {
   return (
-    <div className="testmoni-card-container">
+    <div className="testmoni-card-container" data-aos="flip-right">
       <div className="testmoni-card-content-container">
         <div className="testmoni-card-content-information">
           {/* user image placement */}

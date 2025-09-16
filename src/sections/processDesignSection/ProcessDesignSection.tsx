@@ -18,7 +18,7 @@ const ProcessDesignSection = () => {
           </div>
 
           {/* Step 1 content */}
-          <div className="process-content-right_side">
+          <div className="process-content-right_side" data-aos="fade-right">
             <img src={stepIcon} alt="" />
             <h3>Step 1: Product design Research</h3>
             <p>
@@ -38,7 +38,7 @@ const ProcessDesignSection = () => {
             <div className="process-content-line process-content-line-2"></div>
           </div>
 
-          <div className="process-content-right_side">
+          <div className="process-content-right_side" data-aos="fade-down">
             <img src={stepIcon} alt="" className="process-content-img-1" />
             <h3>Step 2: UI design in figma</h3>
             <p>
@@ -55,7 +55,7 @@ const ProcessDesignSection = () => {
             <div className="process-content-line process-content-line-2"></div>
           </div>
 
-          <div className="process-content-right_side">
+          <div className="process-content-right_side" data-aos="fade-up">
             <img src={stepIcon} alt="" className="process-content-img-2" />
             <h3>Step 3: No-code develop in webflow</h3>
             <p>
