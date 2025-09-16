@@ -1,4 +1,6 @@
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
+import ContactSection from "../sections/contactSection/ContactSection";
 import FeaturePJSection from "../sections/featurePJSection/FeaturePJSection";
 import HeroSection from "../sections/heroSection/HeroSection";
 import ProcessDesignSection from "../sections/processDesignSection/ProcessDesignSection";
@@ -20,6 +22,8 @@ const HomePage = () => {
         <ProcessDesignSection />
         <FeaturePJSection />
         <TestimonialsSection />
+        <ContactSection />
+        <Footer />
       </div>
     </>
   );
