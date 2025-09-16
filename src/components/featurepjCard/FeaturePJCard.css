@@ -105,3 +105,30 @@
     gap: 15px;
   }
 }
+
+/* Grid container for cards */
+.pjcard-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  justify-items: center;
+  margin: 40px 0;
+}
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .pjcard-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 24px 0;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .pjcard-grid-container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin: 16px 0;
+  }
+}

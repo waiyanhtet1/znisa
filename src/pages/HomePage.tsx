@@ -3,6 +3,7 @@ import FeaturePJSection from "../sections/featurePJSection/FeaturePJSection";
 import HeroSection from "../sections/heroSection/HeroSection";
 import ProcessDesignSection from "../sections/processDesignSection/ProcessDesignSection";
 import SponsorSection from "../sections/sponsorSection/SponsorSection";
+import TestimonialsSection from "../sections/testimonialsSection/TestimonialsSection";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
       <div className="homepage-container">
         <ProcessDesignSection />
         <FeaturePJSection />
+        <TestimonialsSection />
       </div>
     </>
   );
